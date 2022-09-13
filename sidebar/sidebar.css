@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f5f6fa;
+    background-color: #F3F9FF;
 }
 
 .wrapper .sidebar {
@@ -73,5 +73,34 @@ body {
 
 /* PAGE */
 .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    border: 2px solid red;
+    height: 100vh;
+}
+
+.pagestuff {
+    /* border: 2px solid yellow; */
+    height: 50vh;
+    line-height: 50px;
+}
+
+.header {
+    color: rgb(5, 68, 104);
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.recents {
+    font-size: 30px;
+    text-align: left;
+    color: rgb(5, 68, 104);
+    background-color: #F5F5F5;
+}
+
+.recentlist {
+    padding-top: 60px;
+    text-align: left;
 }
