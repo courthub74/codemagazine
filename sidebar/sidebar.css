@@ -94,13 +94,27 @@ body {
 }
 
 .recents {
-    font-size: 30px;
+    font-size: 35px;
     text-align: left;
     color: rgb(5, 68, 104);
     background-color: #F5F5F5;
 }
 
 .recentlist {
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: left;
+    line-height: 90px;
+    font-size: 25px;
+}
+
+.recentlist #one {
+    color: green;
+}
+
+.recentlist #two {
+    color: orange;
+}
+
+.recentlist #three {
+    color: red;
 }
