@@ -70,3 +70,8 @@ body {
     width: 25px;
     display: inline-block;
 }
+
+/* PAGE */
+.page {
+    text-align: center;
+}
