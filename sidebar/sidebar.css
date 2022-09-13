@@ -71,13 +71,26 @@ body {
     display: inline-block;
 }
 
+/* LOGOUT */
+.logout {
+    text-align: right;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.logout a {
+    color:  rgb(5, 68, 104);
+    border: 2px rgb(5, 68, 104) solid;
+    padding: 10px;
+}
+
 /* PAGE */
 .page {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100vh;
 }
 
@@ -94,7 +107,7 @@ body {
 }
 
 .recents {
-    font-size: 35px;
+    font-size: 40px;
     text-align: left;
     color: rgb(5, 68, 104);
     background-color: #F5F5F5;
