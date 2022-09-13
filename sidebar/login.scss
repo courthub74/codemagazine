@@ -5,3 +5,21 @@ $background: #F3F9FF;
 // FONTS
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+* {
+    list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F3F9FF;
+}
+
+.wrapper .sidebar {
+    background-color: $darkblue;
+    width: 280px;
+    height: 100vh;
+}
