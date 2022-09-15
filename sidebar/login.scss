@@ -107,9 +107,10 @@ $background: #F3F9FF;
                     padding-left: 10px;
                     background-color: $darkblue;
                     border: none;
+                    color: white;
                 }
                 ::placeholder {
-                    color: white;
+                    color: whitesmoke;
                 }
             }
             .loginbutton {

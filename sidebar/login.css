@@ -90,15 +90,16 @@
   padding-left: 10px;
   background-color: #243F67;
   border: none;
+  color: white;
 }
 * body .loginarea .login ::-moz-placeholder {
-  color: white;
+  color: whitesmoke;
 }
 * body .loginarea .login :-ms-input-placeholder {
-  color: white;
+  color: whitesmoke;
 }
 * body .loginarea .login ::placeholder {
-  color: white;
+  color: whitesmoke;
 }
 * body .loginarea .loginbutton {
   align-self: center;
