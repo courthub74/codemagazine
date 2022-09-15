@@ -12,33 +12,60 @@ $background: #F3F9FF;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
-}
+    .wrapper {
 
-body {
-    background-color: #F3F9FF;
-}
-
-.wrapper .sidebar {
-    background-color: $darkblue;
-    width: 280px;
-    height: 100vh;
-    padding: 20px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: all 0.5s ease;
-    display: flex;
-    flex-direction: column;
-    gap: 600px;
-}
-
-.wrapper .sidebar .profile {
-    margin-bottom: 30px;
-    text-align: center;
-    margin: 20px;
-}
-
-.wrapper .sidebar .anonlogin {
-    text-align: center;
-    line-height: 40px;
+        // SIDEBAR PART
+        .sidebar{
+            background-color: $darkblue;
+            width: 280px;
+            height: 100vh;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            transition: all 0.5s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 600px;
+            
+    
+            // PROFILE TOP
+            .profile {
+                font-size: large;
+                margin-bottom: 30px;
+                text-align: center;
+                margin: 20px;
+                    h2 {
+                        color: white;
+                    }
+            }
+    
+    
+            // ANNONYMOUS LOGIN BUTTON
+            .anonlogin {
+                text-align: center;
+                line-height: 40px;
+                p {
+                    color: white;
+                }
+                button {
+                    background-color: white;
+                    border: 2px $darkblue solid;
+                    border-radius: 50%;
+                    width: 80px;
+                    height:80px;
+                    a {
+                        color: $darkblue;
+                        font-size: 13px;
+                        font-weight: 1000;
+                    }
+                }
+            }
+        }
+    }
+    
+    // THE PAGE PART
+    body {
+        background-color: #F3F9FF;
+    }
 }

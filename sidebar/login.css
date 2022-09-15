@@ -7,12 +7,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
-body {
-  background-color: #F3F9FF;
-}
-
-.wrapper .sidebar {
+* .wrapper .sidebar {
   background-color: rgb(5, 68, 104);
   width: 280px;
   height: 100vh;
@@ -25,14 +20,34 @@ body {
   flex-direction: column;
   gap: 600px;
 }
-
-.wrapper .sidebar .profile {
+* .wrapper .sidebar .profile {
+  font-size: large;
   margin-bottom: 30px;
   text-align: center;
   margin: 20px;
 }
-
-.wrapper .sidebar .anonlogin {
+* .wrapper .sidebar .profile h2 {
+  color: white;
+}
+* .wrapper .sidebar .anonlogin {
   text-align: center;
   line-height: 40px;
+}
+* .wrapper .sidebar .anonlogin p {
+  color: white;
+}
+* .wrapper .sidebar .anonlogin button {
+  background-color: white;
+  border: 2px rgb(5, 68, 104) solid;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+* .wrapper .sidebar .anonlogin button a {
+  color: rgb(5, 68, 104);
+  font-size: 13px;
+  font-weight: 1000;
+}
+* body {
+  background-color: #F3F9FF;
 }/*# sourceMappingURL=login.css.map */
