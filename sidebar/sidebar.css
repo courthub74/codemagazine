@@ -14,7 +14,7 @@ body {
 }
 
 .wrapper .sidebar {
-    background: rgb(5, 68, 104);
+    background: #243F67;
     width: 280px;
     height: 100vh;
     padding: 20px 0;
@@ -79,8 +79,8 @@ body {
 }
 
 .logout a {
-    color:  rgb(5, 68, 104);
-    border: 2px rgb(5, 68, 104) solid;
+    color:  #243F67;
+    border: 2px #243F67 solid;
     padding: 10px;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 .header {
-    color: rgb(5, 68, 104);
+    color: #243F67;
     font-size: 50px;
     padding-bottom: 100px;
 }
@@ -109,7 +109,7 @@ body {
 .recents {
     font-size: 40px;
     text-align: left;
-    color: rgb(5, 68, 104);
+    color: #243F67;
     background-color: #F5F5F5;
 }
 

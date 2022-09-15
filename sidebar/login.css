@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
 * {
   list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 * .wrapper .sidebar {
-  background-color: rgb(5, 68, 104);
+  background-color: #243F67;
   width: 280px;
   height: 100vh;
   padding: 20px 0;
@@ -26,8 +26,10 @@
   text-align: center;
   margin: 20px;
 }
-* .wrapper .sidebar .profile h2 {
+* .wrapper .sidebar .profile p {
   color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 * .wrapper .sidebar .anonlogin {
   text-align: center;
@@ -35,19 +37,78 @@
 }
 * .wrapper .sidebar .anonlogin p {
   color: white;
+  font-size: large;
 }
 * .wrapper .sidebar .anonlogin button {
   background-color: white;
-  border: 2px rgb(5, 68, 104) solid;
+  border: 2px #243F67 solid;
   border-radius: 50%;
   width: 80px;
   height: 80px;
 }
 * .wrapper .sidebar .anonlogin button a {
-  color: rgb(5, 68, 104);
+  color: #243F67;
   font-size: 13px;
   font-weight: 1000;
 }
 * body {
   background-color: #F3F9FF;
+}
+* body .page {
+  text-align: center;
+  padding: 40px;
+}
+* body .page img {
+  height: 300px;
+  width: 300px;
+}
+* body .page p {
+  padding-top: 90px;
+  color: #243F67;
+  font-size: 6vh;
+}
+* body .loginarea {
+  display: flex;
+  justify-content: center;
+}
+* body .loginarea .login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 51px;
+}
+* body .loginarea .login p {
+  font-size: 4vh;
+  width: 100%;
+  text-align: left;
+}
+* body .loginarea .login input {
+  width: 350px;
+  height: 45px;
+  line-height: 30px;
+  padding-left: 10px;
+  background-color: #243F67;
+  border: none;
+}
+* body .loginarea .login ::-moz-placeholder {
+  color: white;
+}
+* body .loginarea .login :-ms-input-placeholder {
+  color: white;
+}
+* body .loginarea .login ::placeholder {
+  color: white;
+}
+* body .loginarea .loginbutton {
+  align-self: center;
+  padding-top: 150px;
+}
+* body .loginarea .loginbutton button {
+  background-color: white;
+  border: #243F67 2px solid;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  font-size: 2vh;
 }/*# sourceMappingURL=login.css.map */
